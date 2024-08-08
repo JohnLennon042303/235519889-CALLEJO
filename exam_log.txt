@@ -1,0 +1,116 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touch notes.txt
+    4  ls >> notes.txt
+    5  cat notes.txt
+    6  echo "Hello, Linux!" > notes.txt
+    7  echo "This is a practical exam." >> notes.txt
+    8  head -n 1 notes.txt
+    9  tail -n 1 notes.txt
+   10  mkdir subdir
+   11  mv notes.txt subdir
+   12  mv subdir practice_subdir
+   13  cp practice_subdir/notes.txt .
+   14  date
+   15  uptime
+   16  du -sh ~
+   17  ssh -V
+   18  php -v
+   19  mysql --version
+   20  apache2 -v
+   21  python --version
+   22  java -version
+   23  gh repo clone <https://github.com/JohnLennon042303/finalexam.git>
+   24  cd <finalexam>
+   25  git checkout -b finalexam
+   26  history > exam_log.txt
+   27  git add exam_log.txt
+   28  git commit -m "Added exam_log.txt with command history"
+   29  git push origin finalexam
+   30  pkg install git
+   31  git checkout -b finalexam
+   32  The user is trying to create a new branch named  finalexam  using the command  git checkout -b finalexam , but they are getting the error:
+   33  fatal: not a git repository (or any parent up to mount point /)
+   34  Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+   35   
+   36  This error indicates that the current directory ( ~/linux_practice ) is not a Git repository. This means that the user hasn't successfully cloned the repository yet.
+   37  Here's how to fix it:
+ 
+1. Clone the repository:
+ 
+bash
+ Copy
+gh repo clone https://github.com/JohnLennon042303/235519889-CALLEJO.git
+ 
+ 
+This will create a new folder named  235519889-CALLEJO  in the  ~/linux_practice  directory, containing the cloned repository.
+2. Change directory:
+ 
+bash
+ Copy
+cd 235519889-CALLEJO
+ 
+ 
+This will move the user into the cloned repository directory.
+3. Create the branch:
+Now, the user can create the  finalexam  branch:
+ 
+bash
+ Copy
+git checkout -b finalexam
+ 
+ 
+Complete Code:
+ 
+bash
+ Copy
+gh repo clone https://github.com/JohnLennon042303/235519889-CALLEJO.git
+cd 235519889-CALLEJO
+git checkout -b finalexam
+ 
+ 
+Explanation:
+ 
+-  gh repo clone ... : Clones the repository from GitHub.
+-  cd 235519889-CALLEJO : Changes directory to the cloned repository folder.
+-  git checkout -b finalexam : Creates a new branch named  finalexam  and switches to it.
+ 
+After completing these steps, the user will be working on the  finalexam  branch of the cloned repository. They can then add files, commit changes, and push them to the remote repositor⚫
+
+
+
+
+
+gh repo clone https://github.com/JohnLennon042303/235519889-CALLEJO.git
+
+clear
+ear
+
+
+
+
+
+
+
+
+
+
+
+   38  clear
+   39  ls
+   40  gh repo clone https://github.com/JohnLennon042303/235519889-CALLEJO.git
+   41  pkg install git
+   42  gh repo clone https://github.com/JohnLennon042303/235519889-CALLEJO.git
+   43  cd 235519889-CALLEJO
+   44  git checkout -b finalexam
+   45  gh repo clone https://github.com/JohnLennon042303/235519889-CALLEJO.git
+   46  cd 235519889-CALLEJO
+   47  git checkout -b finalexam
+   48  pkg update && pkg upgrade  # Update package lists
+   49  pkg install gh
+   50  gh repo clone https://github.com/JohnLennon042303/235519889-CALLEJO.git
+   51  gh auth login
+   52  gh repo clone https://github.com/JohnLennon042303/235519889-CALLEJO.git
+   53  cd 235519889-CALLEJO
+   54  git checkout -b finalexam
+   55  history > exam_log.txt
